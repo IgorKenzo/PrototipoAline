@@ -104,7 +104,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/tvOu"
         android:layout_marginTop="41dp"
-        app:srcCompat="@drawable/GoogleLogin"
+        app:srcCompat="@drawable/googlelogin"
         tools:layout_width="wrap_content" />
 
 </RelativeLayout>
