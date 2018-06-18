@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#080812"
+tools:context="com.example.desktop.prototipotcc.SplashActivity">
+
+<ImageView
+    android:id="@+id/img"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignStart="@+id/txtViewProject"
+    android:layout_marginStart="47dp"
+    android:adjustViewBounds="true"
+    app:srcCompat="@drawable/iconeprovisorio" />
+
+<TextView
+    android:id="@+id/txtViewProject"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/img"
+    android:layout_marginEnd="14dp"
+    android:layout_toStartOf="@+id/txtViewFox"
+    android:fontFamily="@font/source_code_pro"
+    android:text="Project"
+    android:textColor="#FB9B34"
+    android:textSize="30sp" />
+
+<TextView
+    android:id="@+id/txtViewFox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/txtViewProject"
+    android:layout_alignBottom="@+id/txtViewProject"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="98dp"
+    android:text="Fox"
+    android:textColor="@android:color/darker_gray"
+    android:textSize="32sp" />
+
+<ProgressBar
+    android:id="@+id/progressBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@+id/txtViewProject"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="105dp"
+    android:max="100"
+    android:progress="20"
+    android:progressTint="@android:color/darker_gray" />
+
+</RelativeLayout>
