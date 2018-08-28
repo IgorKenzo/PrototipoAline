@@ -10,7 +10,7 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        final Intent intent = new Intent(this, LoginActivity.class);
+        final Intent intent = new Intent(this, NavigationDrawerTest.class);
         Thread thread = new Thread(){
           public void run(){
               try{

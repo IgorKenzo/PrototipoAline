@@ -29,7 +29,10 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".NavigationDrawerTest"
+            android:label="@string/title_activity_navigation_drawer_test"></activity>
     </application>
 
 </manifest>
